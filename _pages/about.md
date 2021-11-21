@@ -2,23 +2,28 @@
 layout: about
 title: about
 permalink: /
-description: CS PhD student, <a href=https://madsp.cs.wisc.edu/>Security and Privacy Research Group</a> @ UW-Madison
+description: Security Researcher • PhD Student • University of Wisconsin-Madison
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+publications:
+  years: [2022, 2021]
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Ph.D. student in the Computer Science Department at [University of Wisconsin-Madison](https://wisc.edu/). Since 2019, I have been a member of [Security and Privacy Research Group (MadS&P)](https://madsp.cs.wisc.edu/), where I am co-advised by Prof. [Earlence Fernandes](http://www.earlence.com/) and Prof. [Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest broadly lies in system security, authorization, and applied cryptography. My current works focus on the security and privacy issues in trigger-action platforms, as well as the automations they empowered among different web services and smart home devices.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to this, I obtained my Bachelor's degree dual majoring in Computer Science and Computer Systems Engineering (*summa cum laude*) from [Rensselaer Polytechnic Institute](https://rpi.edu/). During my undergraduate study, I did a research with Prof. [Qiang Ji](https://www.ecse.rpi.edu/~qji/) on computer vision.
+
+
+
+
+

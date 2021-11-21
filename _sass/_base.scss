@@ -204,16 +204,20 @@ blockquote {
 }
 
 .news table th {
+  font-size: 1rem;
   color: var(--global-text-color);
 }
 
 // Social (bottom)
 
 .social {
+  margin-top: 1em;
+  margin-bottom: 1em;
   text-align: center;
   .contact-icons {
-    font-size: 2rem;
+    font-size: 1.7rem;
     a {
+      margin: 8px;
       i::before {
         color: var(--global-text-color);
         -webkit-transition: all 0.2s ease-in-out;

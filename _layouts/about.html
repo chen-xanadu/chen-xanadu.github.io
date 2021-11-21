@@ -25,6 +25,14 @@ layout: default
           {{ page.profile.address }}
         </div>
       {% endif %}
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.html %}
+          </div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      {% endif %}
     </div>
     {% endif %}
 
@@ -40,14 +48,17 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-    {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
   </article>
+
+  <div class="publications">
+    <h3>Publications</h2>
+    {% for y in page.publications.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}}]* %}
+    {% endfor %}
+    
+  </div>
+
+
 
 </div>
