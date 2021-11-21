@@ -184,7 +184,7 @@ scholar:
   last_name: Chen
   first_name: [Yunang]
 
-  style: verbose
+  style: plain
   locale: en
 
   source: /_bibliography/
