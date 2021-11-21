@@ -21,7 +21,7 @@ I am currently a Ph.D. student in the Computer Science Department at [University
 
 My research interest broadly lies in system security, authorization, and applied cryptography. My current works focus on the security and privacy issues in trigger-action platform, as well as the automations it empowers among different web services and smart home devices.
 
-Prior to this, I obtained my Bachelor's degree dual majoring in Computer Science and Computer Systems Engineering (*summa cum laude*) from [Rensselaer Polytechnic Institute](https://rpi.edu/). During my undergraduate study, I did a research with Prof. [Qiang Ji](https://www.ecse.rpi.edu/~qji/) on computer vision.
+Prior to this, I obtained my Bachelor's degree dual majoring in Computer Science and Computer Systems Engineering (*summa cum laude*) from [Rensselaer Polytechnic Institute](https://rpi.edu/). 
 
 
 

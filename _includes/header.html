@@ -77,7 +77,7 @@
           {% endif %}
           {% endfor %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' }}">
+            <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' | relative_url }}">
               <i class="far fa-file-pdf"></i> curriculum vitae
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
