@@ -181,10 +181,10 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Chen
+  first_name: [Yunang]
 
-  style: apa
+  style: verbose
   locale: en
 
   source: /_bibliography/
