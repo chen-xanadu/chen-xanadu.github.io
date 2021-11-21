@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: CS PhD student, <a href=https://madsp.cs.wisc.edu/>MadS&P</a>
+description: CS PhD student, <a href=https://madsp.cs.wisc.edu/>Security and Privacy Research Group</a> @ UW-Madison
 
 profile:
   align: right
