@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student @ <a href=https://madsp.cs.wisc.edu/>MadS&P</a>. 
+description: CS PhD student, <a href=https://madsp.cs.wisc.edu/>MadS&P</a>
 
 profile:
   align: right
