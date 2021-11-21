@@ -19,7 +19,7 @@ publications:
 
 I am currently a Ph.D. student in the Computer Science Department at [University of Wisconsin-Madison](https://wisc.edu/). Since 2019, I have been a member of [Security and Privacy Research Group (MadS&P)](https://madsp.cs.wisc.edu/), where I am co-advised by Prof. [Earlence Fernandes](http://www.earlence.com/) and Prof. [Rahul Chatterjee](https://pages.cs.wisc.edu/~chatterjee/). 
 
-My research interest broadly lies in system security, authorization, and applied cryptography. My current works focus on the security and privacy issues in trigger-action platforms, as well as the automations they empowered among different web services and smart home devices.
+My research interest broadly lies in system security, authorization, and applied cryptography. My current works focus on the security and privacy issues in trigger-action platform, as well as the automations it empowers among different web services and smart home devices.
 
 Prior to this, I obtained my Bachelor's degree dual majoring in Computer Science and Computer Systems Engineering (*summa cum laude*) from [Rensselaer Polytechnic Institute](https://rpi.edu/). During my undergraduate study, I did a research with Prof. [Qiang Ji](https://www.ecse.rpi.edu/~qji/) on computer vision.
 
