@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 description: CS PhD student, <a href=https://madsp.cs.wisc.edu/>Security and Privacy Research Group</a> @ UW-Madison
 
