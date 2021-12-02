@@ -48,16 +48,29 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
+    <div class="publications">
+      <h3 class="font-weight-bolder">Publications</h3>
+      {% for y in page.publications.years %}
+        <h2 class="year">{{y}}</h2>
+        {% bibliography -f papers -q @*[year={{y}}]* %}
+      {% endfor %}
+      <hr>
+    </div>
+
+
+    <div class="about-listing">
+      <h3 class="font-weight-bolder">Teaching Experiences</h3>
+      I was a Teaching Assistant for
+      <ul>
+        <li>CS 537: Intro to Operating Systems <em>(Fall 2017, Spring 2019)</em></li>
+        <li>CS 540: Intro to Artificial Intelligence <em>(Spring 2018, Fall 2018, Fall 2019)</em></li>
+      </ul>
+    </div>
+  
+
   </article>
 
-  <div class="publications">
-    <h3>Publications</h2>
-    {% for y in page.publications.years %}
-      <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}}]* %}
-    {% endfor %}
-    
-  </div>
+
 
 
 
