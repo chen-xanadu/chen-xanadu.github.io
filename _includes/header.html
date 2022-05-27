@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}  {{ site.chinese_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -33,7 +33,8 @@
 
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                <a class="nav-link" href="{{ '/' | relative_url }}">
+                  <i class="fas fa-home"></i> home
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -82,6 +83,15 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <!-- CV -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' | relative_url }}">
+                  <i class="far fa-file-pdf"></i> curriculum vitae
+                </a>
+              </li>
+    
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

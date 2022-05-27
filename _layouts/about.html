@@ -26,15 +26,20 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
-            {% if page.social %}
+            {%- if page.social %}
+            <!-- Social -->
             <div class="social">
               <div class="contact-icons">
-                {% include social.html %}
+              {% include social.html %}
               </div>
-              <div class="contact-note">{{ site.contact_note }}</div>
+  
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+              
             </div>
-          {% endif %}
-    
+            {%- endif %}
+      
           </div>
           {%- endif %}
 
@@ -50,38 +55,21 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
+          {%- include selected_papers.html %}
+
         </article>
-
-        <div class="publications">
-          <h3 class="font-weight-bolder">Publications</h3>
-          {% for y in page.publications.years %}
-            <h2 class="year">{{y}}</h2>
-            {% bibliography -f papers -q @*[year={{y}}]* %}
-          {% endfor %}
-          <hr>
-        </div>
+        
     
     
         <div class="about-listing">
-          <h3 class="font-weight-bolder">Teaching Experiences</h3>
-          I was a Teaching Assistant for
-          <ul>
-            <li>CS 537: Intro to Operating Systems <em>(Fall 2017, Spring 2019)</em></li>
-            <li>CS 540: Intro to Artificial Intelligence <em>(Spring 2018, Fall 2018, Fall 2019)</em></li>
-          </ul>
+          <h3 class="font-weight-bolder"> <i class="fas fa-chalkboard-teacher"></i>&nbsp; Teaching Experiences</h3>
+          <hr>
+            I was a Teaching Assistant for
+            <ul>
+              <li>CS 537: Intro to Operating Systems <em>(Fall 2017, Spring 2019)</em></li>
+              <li>CS 540: Intro to Artificial Intelligence <em>(Spring 2018, Fall 2018, Fall 2019)</em></li>
+            </ul>
         </div>
     
 
